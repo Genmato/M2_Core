@@ -1,0 +1,29 @@
+{
+  "name": "genmato/core",
+  "description": "Genmato Core Extension for Magento2",
+  "keywords": ["magento2", "genmato", "core"],
+  "homepage": "https://genmato.com/",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name":"V. Kerkhoff",
+      "email": "support@genmato.com",
+      "homepage": "https://genmato.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@genmato.com",
+    "docs": "https://genmato.com/"
+  },
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Genmato\\Core\\": ""
+    }
+  }
+}

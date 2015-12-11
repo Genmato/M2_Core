@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Core
+ *
+ * @package Genmato_Core
+ * @author  Vladimir Kerkhoff <support@genmato.com>
+ * @created 2015-12-11
+ * @copyright Copyright (c) 2015 Genmato BV, https://genmato.com.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Genmato_Core" setup_version="1.0.0">
+    </module>
+</config>
